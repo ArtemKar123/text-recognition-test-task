@@ -6,10 +6,10 @@
 
   {"path": "5.png", "text":  "Skipped breakpoint at org.jetbrains.intellij.build.images.IconsClassGeneratorKt:526 because it happened inside debugger evaluation\nTroubleshooting guide"},
   {"path": "6.png", "text":  "IllegalArgumentException: Wrong path 90/, isDirectory = false"},
-  {"path": "7.png", "text":  "(global variable) const std::type info* g_TypeInfo[1]\nCannot initialize global variable 'g_Typelnfo' of type const std::type info*[1] with const type_info*"},
+  {"path": "7.png", "text":  "(global variable) const std::type_info* g_TypeInfo[1]\nCannot initialize global variable 'g_TypeInfo' of type const std::type_info*[1] with const type_info*"},
   {"path": "8.png", "text":  "// Sample is 你好\n//   But 有点问题"},
-  {"path": "9.png", "text":  "AWS EMR [#iA][us-east-1]\nAlibaba OSS［显式凭据］ ［oss-eu-w"},
-  {"path": "10.png", "text":  "public interface NamesInterface {\n\tString getFirstname();\n\tString getlLastname();\n\n}"},
-  {"path": "11.png", "text":  "package net.unixplanet.tutorials.gameengine.entities;\\n\\nimport net.unixplanet.tutorials.gameengine.models.TexturedModel;\\nimport org.lwjgl.util.vector.Vector3f;\\n\\npublic class Entity {\\n    private TexturedModel model;\\n    private Vector3f position;\\n    private float rotX, roty, rotZ;\\n    private float scale;\\n\\n    public Entity(TexturedModel model, Vector3f position, float rotX, float rotY, float rotZ, float scale) {\\n        this.model = model;\\n        this.position = position;\\n        this.rotX = rotX;\\n        this.rotY = rotY;        \\n        this.rotZ = rotZ;\\n        this.scale = scale;\"\n},"},
+  {"path": "9.png", "text":  "AWS EMR [#iA][us-east-1]\nAlibaba OSS[显式凭据] [oss-eu-w"},
+  {"path": "10.png", "text":  "public interface NamesInterface {\n    String getFirstname();\n    String getlLastname();\n\n}"},
+  {"path": "11.png", "text":  "package net.unixplanet.tutorials.gameengine.entities;\n\nimport net.unixplanet.tutorials.gameengine.models.TexturedModel;\nimport org.lwjgl.util.vector.Vector3f;\n\npublic class Entity {\n    private TexturedModel model;\n    private Vector3f position;\n    private float rotX, roty, rotZ;\n    private float scale;\n\n    public Entity(TexturedModel model, Vector3f position, float rotX, float rotY, float rotZ, float scale) {\n        this.model = model;\n        this.position = position;\n        this.rotX = rotX;\n        this.rotY = rotY;        \n        this.rotZ = rotZ;\n        this.scale = scale;\n    }"},
   {"path": "12.png", "text":  "Parameter 'createAction' of concrete class 'Action.@NotNull Create'\npublic interface Foo.Action"}
 ]
