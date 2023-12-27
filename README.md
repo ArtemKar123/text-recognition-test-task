@@ -1,25 +1,9 @@
-## Please, fork this repo first!
-
-# Instructions
-
-- Your goal is to implement a model using any python library
-that will recognize the text from the picture as accurate as possible.
-
-- The dataset contained in `data/public_data` consist of images with English/Chinese texts
-and `info.json` file with all ground truth texts.
-
-- You should implement class located in `ocr_model.py`. Feel free to write any code you want,
-but keep in mind that the model should match `OCRModel` interface, so I will be able to easily test it.
-You can check your recognition quality on public data with `main.py` script.
-
-- Your grade would depend on both the accuracy of your model
-and the quality of your code.
-
-  -  To measure your accuracy I will download your fork and 
-run your model on the secret version of dataset (with another, but conceptually similar screenshots).
-
-
-Good luck! And feel free to text me via email if you have any questions:
-
-[aleksandr.fedotov@jetbrains.com](aleksandr.fedotov@jetbrains.com)
-
+# Solution
+## Model
+EasyOCR is used for detection and recognition. Of course, we can do better by fine-tuning it for our IDE oriented task, but for now the default model seems to work just fine.
+## Postprocessing
+Results of recognition are postprocessed with an assumption, that the data consists of IDE screenshots (or somewhat similar).
+Basically, postprocessing consists of combining text boxes and adding new lines and tabs to them.
+## Side-note
+There were some typos in test data, so there is a commit that fixes them.
+# [Happy New Year!](https://www.youtube.com/watch?v=hJresi7z_YM)
