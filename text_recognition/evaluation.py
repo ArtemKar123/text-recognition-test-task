@@ -24,7 +24,7 @@ def evaluate_model(model: OCRModel, dataset_path: Path, verbose=0):
     with open(dataset_path / 'info.json') as f:
         dataset_info = json.load(f)
     accuracies = []
-    for file_info in tqdm(dataset_info):
+    for file_info in dataset_info:
         predicted_text = model.recognize_text(dataset_path / file_info['path'])
         accuracy = text_accuracy(file_info['text'], predicted_text)
         accuracies.append(accuracy)
